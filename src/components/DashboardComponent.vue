@@ -3,8 +3,8 @@
 </script>
 
 <template>
-<h1>Evalata braketo mi</h1>
-  <p>tuka sme</p>
+<h1>Dashboard Page</h1>
+  <p>Welcome</p>
 </template>
 
 
