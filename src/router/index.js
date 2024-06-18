@@ -1,21 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
-// Import your components
-
-import DashboardComponent from "@/components/DashboardComponent.vue";
+import MainPage from "@/views/MainPage.vue";
 import NotFound from "@/views/NotFound.vue";
-import HelloWorld from "@/components/HelloWorld.vue";
+
 
 const routes = [
     {
         path: '/',
-        name: 'Dashboard',
-        component: DashboardComponent,
-    },
-    {
-        path: '/hello',
-        name: 'HelloWorld',
-        component: HelloWorld,
+        name: 'MainPage',
+        component: MainPage,
     },
     {
         path: '/:catchAll(.*)',
